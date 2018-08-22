@@ -38,9 +38,9 @@ nav header {
 .nav-link {
   text-decoration: none;
   color: inherit;
-  font-size: 1.25em;
+  font-size: 1.125em;
   text-align: center;
-  padding: 2.5px;
+  padding: 5px;
 }
 
 .nav-link:nth-child(n+2) {
