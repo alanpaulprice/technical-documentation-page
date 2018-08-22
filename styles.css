@@ -35,9 +35,10 @@
 
 nav header {
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.75em;
   text-align: center;
   margin-top: 10px;
+  padding: 5px;
 }
 
 #nav-link-container {
@@ -65,7 +66,7 @@ nav header {
 /* ===== MAIN CONTENT ===== */
 
 main {
-  padding: 20px 20px 0;
+  padding: 0 20px 0;
 }
 
 .main-section {
