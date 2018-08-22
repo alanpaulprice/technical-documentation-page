@@ -43,28 +43,30 @@ should be shown on the left side of the screen and should always be visible to t
 </head>
 <body>
   <div id="container">
-    <header>
+    <header id="main-header">
       <nav id="navbar">
-        <header>JS Documentation</header>
-        <a class="nav-link" href="#introduction">Introduction</a>
-        <a class="nav-link" href="#what_you_should_already_know">What You Should Already Know</a>
-        <a class="nav-link" href="#javascript_and_java">Javascript and Java</a>
-        <a class="nav-link" href="#hello_world">Hello World</a>
-        <a class="nav-link" href="#variables">Variables</a>
-        <a class="nav-link" href="#declaring_variables">Declaring Variables</a>
-        <a class="nav-link" href="#variable_scope">Variable Scope</a>
-        <a class="nav-link" href="#global_variables">Global Variables</a>
-        <a class="nav-link" href="#constants">Constants</a>
-        <a class="nav-link" href="#data_types">Data Types</a>
-        <a class="nav-link" href="#if...else">if...else</a>
-        <a class="nav-link" href="#while">while</a>
-        <a class="nav-link" href="#function_declarations">Function Declarations</a>
-        <a class="nav-link" href="#reference">Reference</a>
+        <header>JavaScript Documentation</header>
+        <div id="nav-link-container">
+          <a class="nav-link" href="#introduction">Introduction</a>
+          <a class="nav-link" href="#what_you_should_already_know">What You Should Already Know</a>
+          <a class="nav-link" href="#javascript_and_java">Javascript and Java</a>
+          <a class="nav-link" href="#hello_world">Hello World</a>
+          <a class="nav-link" href="#variables">Variables</a>
+          <a class="nav-link" href="#declaring_variables">Declaring Variables</a>
+          <a class="nav-link" href="#variable_scope">Variable Scope</a>
+          <a class="nav-link" href="#global_variables">Global Variables</a>
+          <a class="nav-link" href="#constants">Constants</a>
+          <a class="nav-link" href="#data_types">Data Types</a>
+          <a class="nav-link" href="#if...else">if...else</a>
+          <a class="nav-link" href="#while">while</a>
+          <a class="nav-link" href="#function_declarations">Function Declarations</a>
+          <a class="nav-link" href="#reference">Reference</a>
+        </div>
       </nav>
     </header>
 
     <main id="main-doc">
-      <section id="introduction" class="main-sect ion">
+      <section id="introduction" class="main-section">
         <header>Introduction</header>
         <p>JavaScript is a cross-platform, object-oriented scripting language.
           It is a small and lightweight language. Inside a host environment
@@ -128,10 +130,10 @@ should be shown on the left side of the screen and should always be visible to t
         <p>To get started with writing JavaScript, open the Scratchpad and write
           your first "Hello world" JavaScript code:</p>
           <pre><code>
-              function greetMe(yourName) {
-                alert("Hello " + yourName);
-              }
-              greetMe("World");
+function greetMe(yourName) {
+  alert("Hello " + yourName);
+}
+greetMe("World");
             </code></pre>
           <p>Select the code in the pad and hit Ctrl+R to watch it unfold in
             your browser!</p>
