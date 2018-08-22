@@ -18,6 +18,9 @@
 
 /* ===== NAV ===== */
 
+#nav-space-fill {
+  display: none;
+}
 nav header {
   font-weight: bold;
   font-size: 2em;
@@ -97,6 +100,13 @@ li ul {
   }
 
   /* ===== NAV ===== */
+
+  #nav-space-fill {
+    display: block;
+    flex: 0 0 20%;
+    background-color: pink;
+    /* min-width: 250px; */
+  }
 
   #navbar {
     position: fixed;
