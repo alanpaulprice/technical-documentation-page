@@ -26,6 +26,7 @@
 
 #nav-space-fill {
   display: none;
+  flex: 0 0 20%;
 }
 
 #nav-space-fill, nav {
@@ -113,9 +114,6 @@ li ul {
 
   #nav-space-fill {
     display: block;
-    flex: 0 0 20%;
-    background-color: pink;
-    /* min-width: 250px; */
   }
 
   #navbar {
