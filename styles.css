@@ -1,9 +1,5 @@
 /* ===== GENERAL ===== */
 
-::root {
-  --code--backg-shade: hsl(0, 0%, 80%); /* light grey */
-}
-
 :not(ul) {
   padding: 0;
   margin: 0;
@@ -68,7 +64,7 @@ main {
 
 pre, code {
   font-family: monospace;
-  background-color: hsl(0, 0%, 90%);
+  background-color: hsl(0, 0%, 95%);
 }
 
 pre {
@@ -77,5 +73,9 @@ pre {
 }
 
 .main-section li:nth-child(n+2) {
+  margin-top: 10px;
+}
+
+li ul {
   margin-top: 10px;
 }
