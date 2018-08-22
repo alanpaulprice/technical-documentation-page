@@ -21,6 +21,11 @@
 #nav-space-fill {
   display: none;
 }
+
+#nav-space-fill, nav {
+  min-width: 225px;
+}
+
 nav header {
   font-weight: bold;
   font-size: 2em;
