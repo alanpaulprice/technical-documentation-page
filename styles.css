@@ -31,6 +31,7 @@
 
 #nav-space-fill, nav {
   min-width: 225px;
+  max-width: 300px;
 }
 
 nav header {
@@ -70,7 +71,8 @@ main {
 }
 
 .main-section {
-  margin-top: 60px;
+  max-width: 750px;
+  margin: 60px auto 0;
 }
 
 .main-section header {
