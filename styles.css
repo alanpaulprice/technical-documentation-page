@@ -79,3 +79,40 @@ pre {
 li ul {
   margin-top: 10px;
 }
+
+/* ===== MEDIA QUERIES ===== */
+
+@media only screen and (min-width: 576px) {
+
+  #container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /* ===== NAV ===== */
+
+  #navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 30%;
+    /* height: 100%; */
+    border-right: 2.5px solid #000;
+  }
+
+  #nav-link-container {
+    height: initial;
+    border: none;
+    border-bottom: 2.5px solid #000;
+  }
+
+  /* ===== MAIN CONTENT ===== */
+
+  main {
+    flex: 0 0 70%;
+  }
+}
+
+main, nav {
+  /* border: 1px solid red; */
+}
