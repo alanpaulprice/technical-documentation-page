@@ -1,5 +1,11 @@
 /* ===== GENERAL ===== */
 
+:root {
+  --color-1: hsl(0, 0%, 0%); /* black */
+  --color-2: hsl(0, 0%, 80%); /* grey */
+  --color-3: hsl(0, 0%, 95%); /* light grey */
+}
+
 :not(ul) {
   padding: 0;
   margin: 0;
@@ -25,8 +31,8 @@ nav header {
   margin-top: 10px;
   height: 150px;
   overflow: auto;
-  border-top: 2.5px solid #000;
-  border-bottom: 2.5px solid #000;
+  border-top: 2.5px solid var(--color-2);
+  border-bottom: 2.5px solid var(--color-2);
 }
 
 .nav-link {
@@ -38,7 +44,7 @@ nav header {
 }
 
 .nav-link:nth-child(n+2) {
-  border-top: 1px solid #000;
+  border-top: 1px solid var(--color-3);
 }
 
 /* ===== MAIN CONTENT ===== */
@@ -64,12 +70,13 @@ main {
 
 pre, code {
   font-family: monospace;
-  background-color: hsl(0, 0%, 95%);
+  background-color: var(--color-3);
 }
 
 pre {
   margin-top: 20px;
   padding-left: 20px;
+  border-left: 5px solid var(--color-2);
 }
 
 .main-section li:nth-child(n+2) {
@@ -96,14 +103,12 @@ li ul {
     top: 0px;
     left: 0px;
     width: 30%;
-    /* height: 100%; */
-    border-right: 2.5px solid #000;
+    height: 100%;
+    border-right: 2.5px solid var(--color-2);
   }
 
   #nav-link-container {
     height: initial;
-    border: none;
-    border-bottom: 2.5px solid #000;
   }
 
   /* ===== MAIN CONTENT ===== */
@@ -111,8 +116,4 @@ li ul {
   main {
     flex: 0 0 70%;
   }
-}
-
-main, nav {
-  /* border: 1px solid red; */
 }
