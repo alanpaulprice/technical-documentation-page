@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+* {
+  font-family: sans-serif;
+}
+
 /* ===== NAV ===== */
 
 #main-header {
@@ -41,7 +45,37 @@ nav header {
   padding: 2.5px;
 }
 
+/* ===== MAIN CONTENT ===== */
+
+main {
+  margin: 20px 20px 0;
+}
+
+.main-section {
+  margin-top: 60px;
+}
 
 .main-section header {
   font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.main-section p:nth-child(n+2) {
+  margin-top: 20px;
+}
+
+pre, code {
+  font-family: monospace;
+  background-color: hsl(0, 0%, 90%);
+}
+
+pre {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.main-section li:nth-child(n+2) {
+  margin-top: 10px;
 }
