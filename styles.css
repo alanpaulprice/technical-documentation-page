@@ -44,7 +44,7 @@
 #nav-link-container {
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
+  margin-top: 5px;
   height: 150px;
   overflow: auto;
   border-top: 2.5px solid var(--color-2);
@@ -61,6 +61,18 @@
 
 .nav-link:nth-child(n+2) {
   border-top: 1px solid var(--color-3);
+}
+
+.nav-link:nth-child(1) {
+  padding-top: 5px;
+}
+
+.nav-link:last-child {
+  padding-bottom: 5px;
+}
+
+.nav-link:hover {
+  background-color: var(--color-3);
 }
 
 /* ===== MAIN CONTENT ===== */
